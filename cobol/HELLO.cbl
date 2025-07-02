@@ -1,0 +1,13 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HELLO.
+       AUTHOR. STELEE.
+       
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       
+       PROCEDURE DIVISION.
+       PROGRAM-BEGIN.
+           DISPLAY "Hello, World!".
+       PROGRAM-DONE.
+           STOP RUN.
