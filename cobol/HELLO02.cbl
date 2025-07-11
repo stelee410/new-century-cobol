@@ -1,0 +1,16 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HELLO02.
+       AUTHOR. STELEE.
+       
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  NAME PIC X(20).
+       
+       PROCEDURE DIVISION.
+       PROGRAM-BEGIN.
+           DISPLAY "ENTER YOUR NAME:".
+           ACCEPT  NAME.
+           DISPLAY "HELLO, " NAME.
+       PROGRAM-DONE.
+           STOP RUN.
