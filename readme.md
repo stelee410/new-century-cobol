@@ -1,71 +1,71 @@
 # New Century COBOL
 
-一个现代化的COBOL程序生成器工具。
+A modern COBOL program generator tool.
 
-## 功能特性
+## Features
 
-- 快速生成COBOL程序壳
-- 交互式用户输入
-- 自动生成程序ID和作者信息
-- 包含完整的COBOL程序结构
+- Quick COBOL program skeleton generation
+- Interactive user input
+- Automatic program ID and author information generation
+- Complete COBOL program structure included
 
-## 安装和使用
+## Installation and Usage
 
-### 方法1: 直接运行Python脚本
+### Method 1: Direct Python Script Execution
 
 ```bash
 python cbl.py new
 ```
 
-### 方法2: 使用启动脚本
+### Method 2: Using Launch Script
 
 ```bash
 python cbl new
 ```
 
-## 使用示例
+## Usage Examples
 
-运行命令后，工具会提示您输入以下信息：
+After running the command, the tool will prompt you to enter the following information:
 
-1. **程序ID (Program-ID)**: 您的COBOL程序名称
-2. **作者ID (Author-ID)**: 程序作者信息
+1. **Program ID (Program-ID)**: Your COBOL program name
+2. **Author ID (Author-ID)**: Program author information
 
-### 示例会话
+### Example Session
 
 ```bash
 $ python cbl new
-=== COBOL程序生成器 ===
+=== COBOL Program Generator ===
 
-请输入程序ID (Program-ID): HELLO-WORLD
-请输入作者ID (Author-ID): 张三
-✓ COBOL程序已成功创建: HELLO-WORLD.cbl
-✓ 程序ID: HELLO-WORLD
-✓ 作者ID: 张三
+Please enter Program ID (Program-ID): HELLO-WORLD
+Please enter Author ID (Author-ID): John Doe
+✓ COBOL program successfully created: HELLO-WORLD.cbl
+✓ Program ID: HELLO-WORLD
+✓ Author ID: John Doe
 ```
 
-## 生成的文件结构
+## Generated File Structure
 
-生成的COBOL程序包含以下标准结构：
+The generated COBOL program contains the following standard structure:
 
-- **IDENTIFICATION DIVISION**: 程序标识信息
-- **ENVIRONMENT DIVISION**: 环境配置
-- **DATA DIVISION**: 数据定义
-- **PROCEDURE DIVISION**: 程序逻辑
+- **IDENTIFICATION DIVISION**: Program identification information
+- **ENVIRONMENT DIVISION**: Environment configuration
+- **DATA DIVISION**: Data definitions
+- **PROCEDURE DIVISION**: Program logic
 
-## 文件权限设置
+## File Permission Settings
 
-如果您想直接运行 `./cbl new`，请设置执行权限：
+If you want to run `./cbl new` directly, please set execution permissions:
 
 ```bash
 chmod +x cbl
 ```
 
-## 系统要求
+## System Requirements
 
 - Python 3.6+
-- 支持UTF-8编码的终端
+- Terminal with UTF-8 encoding support
 
-## 许可证
+## License
 
 MIT License
 
